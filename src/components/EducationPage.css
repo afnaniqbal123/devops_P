@@ -1,0 +1,46 @@
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./assets/image.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+  }
+  
+  .education-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .education-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .education-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+  }
+  
+  .education-card h3 {
+    margin: 10px 0;
+  }
+
+
+
+  
+  
