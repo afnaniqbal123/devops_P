@@ -1,0 +1,18 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: Npm@1
+  inputs:
+    command: 'install'
+
+- script: |
+    npm run build
+  displayName: 'npm build'
+
+- script: |
+    npm test
+  displayName: 'Run selenium tests'
