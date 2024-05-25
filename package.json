@@ -12,7 +12,8 @@
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.1",
     "typeface-poppins": "^1.1.13",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webdriverio": "^8.38.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,5 +38,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "@babel/preset-react": "^7.24.6"
   }
 }
